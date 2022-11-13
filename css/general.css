@@ -36,7 +36,7 @@ Primacy:#e67e22;
 
 ---06 BORDER-RADIUS
 Default: 9px
-
+Medium: 11px
 ---07 WHITESPACE
 
 -spacing system (px)
@@ -53,7 +53,7 @@ html {
   font-size: 62.5%;
 }
 body {
-  font-family: "Rubik" sans-serif;
+  font-family: "Rubik", sans-serif;
   line-height: 1;
   font-weight: 400;
   color: #555;
