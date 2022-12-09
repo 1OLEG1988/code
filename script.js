@@ -1,4 +1,31 @@
-///////////////////////////////////////////////////////////
+console.log("Hello Word");
+
+const myName = "Jonas Schmedtmann";
+const h1 = document.querySelector(".heading-primary");
+console.log(myName);
+console.log(h1);
+
+// h1.addEventListener("click", function () {
+//   console.log(h1);
+//   h1.textContent = myName;
+//   h1.style.backgroundColor = "red";
+//   h1.style.padding = "5rem";
+// });
+// Set current year
+const yearEl = document.querySelector(".year");
+const currentYear = new Date().getFullYear();
+yearEl.textContent = currentYear;
+
+// Make mobile navigation work
+const bntNavEl = document.querySelector(".btn-mobile-nav");
+const headerEl = document.querySelector(".header");
+bntNavEl.addEventListener("click", function () {
+  headerEl.classList.toggle("nav-open");
+});
+
+//
+//
+/////////////////////////////////////////////////////
 // Fixing flexbox gap property missing in some Safari versions
 function checkFlexGap() {
   var flex = document.createElement("div");
